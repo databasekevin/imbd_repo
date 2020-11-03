@@ -1,0 +1,3 @@
+\sqlfiles\etl_log.sql
+\sqlfiles\trigger_set_timestamp.sql
+\sqlfiles\x_imdb_base_log.sql

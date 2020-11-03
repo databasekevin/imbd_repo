@@ -1,6 +1,6 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This README would normally document whatever STeps are necessary to get your application up and running.
 
 ### What is this repository for? ###
 
@@ -14,12 +14,12 @@ This README would normally document whatever steps are necessary to get your app
 * Configuration
 * Dependencies
 * Database configuration
-* How to run tests
-* Deployment instructions
+* How to run teSTs
+* Deployment inSTructions
 
 ### Contribution guidelines ###
 
-* Writing tests
+* Writing teSTs
 * Code review
 * Other guidelines
 

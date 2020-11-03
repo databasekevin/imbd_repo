@@ -1,0 +1,3 @@
+\sqlfiles\ext_imdb_base_title_akas.sql
+\sqlfiles\st_imdb_base_title_akas.sql
+\sqlfiles\dw_imdb_base_title_akas_etl.sql

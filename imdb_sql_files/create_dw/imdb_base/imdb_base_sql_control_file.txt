@@ -1,0 +1,4 @@
+\sqlfiles\sv_imdb_base_title_akas.sql
+\sqlfiles\st_imdb_base_title_akas.sql
+\sqlfiles\x_imdb_base_title_akas_chg.sql
+\sqlfiles\dw_imdb_base_title_akas.sql
