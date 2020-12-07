@@ -37,5 +37,5 @@ VALUES (
 	,'TITLE_CREW' /* AS SRC_ID */
 	,'19000101' /* AS LOAD_DATE */
 	,'19000101' /* AS LAST_UPDATE */
-	,'0' /* AS NOTE */
+	,'N/A' /* AS NOTE */
 	);
