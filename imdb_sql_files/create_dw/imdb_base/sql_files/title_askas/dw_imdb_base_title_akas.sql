@@ -44,16 +44,18 @@ INSERT INTO DW_IMDB_BASE_TITLE_AKAS(
 	)
 VALUES (
 	0 /* AS TITLE_ID*/
-	,'0' /* AS TITLEID */
-	,0 /* AS ORDERING */
+	,'N/A' /* AS TITLE_NK */
+	,0 /* AS ORDERING_NK */
 	,'N/A' /* AS TITLE */
 	,'N/A' /* AS REGION */
 	,'N/A' /* AS LANGUAGE */
 	,'N/A' /* AS TYPES */
 	,'N/A' /* AS ATTRIBUTES */
 	,0 /* AS ISORIGINALTITLE */
-	,'0' /* AS SRC_ID */
+	,'TITLE_AKAS' /* AS SRC_ID */
 	,'19000101' /* AS LOAD_DATE */
 	,'19000101' /* AS LAST_UPDATE */
 	,'N/A' /* AS NOTE */
 	);
+
+COMMIT;
