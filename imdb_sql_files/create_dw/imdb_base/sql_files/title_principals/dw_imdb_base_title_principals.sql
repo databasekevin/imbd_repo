@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS DW_IMDB_BASE_TITLE_PRINCIPALS;
 /* CREATE DW TABLE */
 CREATE TABLE DW_IMDB_BASE_TITLE_PRINCIPALS (
 	P_TCONST_ID INTEGER NULL
-	TCONST_NK TEXT NOT NULL	-- alphanumeric unique identifier of the title
+	,TCONST_NK TEXT NOT NULL	-- alphanumeric unique identifier of the title
 	,ORDERING INT NOT NULL -- a number to uniquely identify rows for a given titleId
 	,NCONST TEXT NOT NULL --alphanumeric unique identifier of the name/person
 	,CATEGORY TEXT NOT NULL --the category of job that person was in
