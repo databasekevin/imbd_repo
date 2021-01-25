@@ -10,7 +10,7 @@ CREATE TABLE DW_IMDB_BASE_TITLE_PRINCIPALS (
 	,CATEGORY TEXT NOT NULL --the category of job that person was in
 	,JOB TEXT NOT NULL --the specific job title if applicable, else '\N'
 	,CHARACTERS TEXT NOT NULL --the name of the character played if applicable, else '\N'
-	,SRC_ID TEXT NOT NULL
+	,SRC_NAME TEXT NOT NULL
 	,LOAD_DATE DATE NOT NULL
 	,LAST_UPDATE DATE NOT NULL
 	,NOTE TEXT NOT NULL
@@ -35,7 +35,7 @@ INSERT INTO DW_IMDB_BASE_TITLE_PRINCIPALS(
 	,CATEGORY
 	,JOB
 	,CHARACTERS
-	,SRC_ID
+	,SRC_NAME
 	,LOAD_DATE
 	,LAST_UPDATE
 	,NOTE
@@ -48,7 +48,7 @@ VALUES (
 	,'N/A' /* AS CATEGORY */
 	,'N/A' /* AS JOB */
 	,'N/A' /* AS CHARACTERS */
-	,'TITLE_PRINCIPALS' /* AS SRC_ID */
+	,'TITLE_PRINCIPALS' /* AS SRC_NAME */
 	,'19000101' /* AS LOAD_DATE */
 	,'19000101' /* AS LAST_UPDATE */
 	,'N/A' /* AS NOTE */
